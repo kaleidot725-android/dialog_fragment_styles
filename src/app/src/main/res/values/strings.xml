@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DialogFragment Samples</string>
+    <string name="fullscreen_dialog_fragment">FULLSCREEN DIALOG FRAGMENT</string>
 </resources>
