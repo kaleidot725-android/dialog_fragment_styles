@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">DialogFragment Samples</string>
     <string name="fullscreen_dialog_fragment">FULLSCREEN DIALOG FRAGMENT</string>
+    <string name="normal_dialog_fragment">NORMAL DIALOG FRAGMENT</string>
+    <string name="background_dialog_fragment">BACKGROUND DIALOG FRAGMENT</string>
+    <string name="position_dialog_fragment">POSITION DIALOG FRAGMENT</string>
+    <string name="rounded_dialog_fragment">ROUNDED DIALOG FRAGMENT</string>
+    <string name="popup_dialog_fragment">POPUP DIALOG FRAGMENT</string>
 </resources>
