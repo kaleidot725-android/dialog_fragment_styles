@@ -12,6 +12,6 @@ class NormalDialogFragment : DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.dialog_fragment_full_screen, container,  false)
+        return inflater.inflate(R.layout.dialog_fragment_normal, container,  false)
     }
 }

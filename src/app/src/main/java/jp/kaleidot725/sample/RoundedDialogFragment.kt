@@ -12,6 +12,6 @@ class RoundedDialogFragment : DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.dialog_fragment_full_screen, container,  false)
+        return inflater.inflate(R.layout.dialog_fragment_rounded, container,  false)
     }
 }
