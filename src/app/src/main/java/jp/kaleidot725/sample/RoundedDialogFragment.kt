@@ -14,4 +14,12 @@ class RoundedDialogFragment : DialogFragment() {
     ): View? {
         return inflater.inflate(R.layout.dialog_fragment_rounded, container,  false)
     }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setStyle(getStyle(), getThemeResId())
+    }
+
+    private fun getStyle(): Int = STYLE_NORMAL
+    private fun getThemeResId(): Int = 0
 }
