@@ -17,6 +17,11 @@
     <style name="Theme.Sample.RoundedDialog" parent="Theme.MaterialComponents.Light.Dialog">
         <item name="dialogCornerRadius">16dp</item>
     </style>
+
+    <style name="Theme.Sample.BackgroundDimDisabledDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
     <style name="Theme.Sample.FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:windowIsFloating">false</item>

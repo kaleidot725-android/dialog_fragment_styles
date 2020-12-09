@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 
-class PopUpDialogFragment : DialogFragment() {
+class BackgroundDimDisableDialogFragment : DialogFragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.dialog_fragment_pop_up, container,  false)
+        return inflater.inflate(R.layout.dialog_fragment_background_dim_disabled, container,  false)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,5 +21,5 @@ class PopUpDialogFragment : DialogFragment() {
     }
 
     private fun getStyle(): Int = STYLE_NORMAL
-    private fun getThemeResId(): Int = 0
+    private fun getThemeResId(): Int = R.style.Theme_Sample_BackgroundDimDisabledDialog
 }

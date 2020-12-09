@@ -28,20 +28,14 @@
         android:text="@string/background_dialog_fragment" />
 
     <Button
-        android:id="@+id/position_dialog_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/position_dialog_fragment" />
-
-    <Button
         android:id="@+id/rounded_dialog_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/rounded_dialog_fragment" />
 
     <Button
-        android:id="@+id/popup_dialog_fragment"
+        android:id="@+id/background_dim_disabled_dialog_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/popup_dialog_fragment" />
+        android:text="@string/background_dim_disabled_dialog_fragment" />
 </LinearLayout>

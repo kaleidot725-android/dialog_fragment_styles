@@ -23,19 +23,14 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             BackgroundDialogFragment().show(supportFragmentManager, "")
         }
 
-        val positionDialogFragmentButton = findViewById<Button>(R.id.position_dialog_fragment)
-        positionDialogFragmentButton.setOnClickListener {
-            PositionDialogFragment().show(supportFragmentManager, "")
-        }
-
         val roundedDialogFragmentButton = findViewById<Button>(R.id.rounded_dialog_fragment)
         roundedDialogFragmentButton.setOnClickListener {
             RoundedDialogFragment().show(supportFragmentManager, "")
         }
 
-        val popUpDialogFragmentButton = findViewById<Button>(R.id.popup_dialog_fragment)
-        popUpDialogFragmentButton.setOnClickListener {
-            PopUpDialogFragment().show(supportFragmentManager, "")
+        val backgroundDimDisableDialogFragmentButton = findViewById<Button>(R.id.background_dim_disabled_dialog_fragment)
+        backgroundDimDisableDialogFragmentButton.setOnClickListener {
+            BackgroundDimDisableDialogFragment().show(supportFragmentManager, "")
         }
     }
 }
