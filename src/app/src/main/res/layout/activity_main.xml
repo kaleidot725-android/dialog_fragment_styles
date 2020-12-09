@@ -38,4 +38,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/background_dim_disabled_dialog_fragment" />
+
+    <Button
+        android:id="@+id/window_close_on_touch_outside_disable_dialog_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/window_close_on_touch_outside_disable_dialog_fragment" />
 </LinearLayout>

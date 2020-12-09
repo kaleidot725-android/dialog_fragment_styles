@@ -32,5 +32,10 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         backgroundDimDisableDialogFragmentButton.setOnClickListener {
             BackgroundDimDisableDialogFragment().show(supportFragmentManager, "")
         }
+
+        val windowCloseOnTouchOutsideDisableDialogFragmentButton = findViewById<Button>(R.id.window_close_on_touch_outside_disable_dialog_fragment)
+        windowCloseOnTouchOutsideDisableDialogFragmentButton.setOnClickListener {
+            WindowCloseOnTouchOutsideDisableDialogFragment().show(supportFragmentManager, "")
+        }
     }
 }

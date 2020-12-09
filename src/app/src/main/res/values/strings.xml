@@ -5,4 +5,5 @@
     <string name="background_dialog_fragment">BACKGROUND DIALOG FRAGMENT</string>
     <string name="rounded_dialog_fragment">ROUNDED DIALOG FRAGMENT</string>
     <string name="background_dim_disabled_dialog_fragment">BACKGROUND DIM DISABLED DIALOG FRAGMENT</string>
+    <string name="window_close_on_touch_outside_disable_dialog_fragment">WINDOW CLOSE ON TOUCH OUTSIDE DISABLE DIALOG FRAGMENT</string>
 </resources>

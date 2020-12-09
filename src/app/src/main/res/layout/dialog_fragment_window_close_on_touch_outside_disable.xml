@@ -10,10 +10,10 @@
         android:layout_height="200dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="@string/normal_dialog_fragment"
+        android:text="@string/window_close_on_touch_outside_disable_dialog_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

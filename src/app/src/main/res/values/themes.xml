@@ -22,6 +22,10 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
+    <style name="Theme.Sample.WindowCloseOnTouchOutsideDisableDialogFragment" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
     <style name="Theme.Sample.FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:windowIsFloating">false</item>
