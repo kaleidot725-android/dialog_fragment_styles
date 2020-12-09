@@ -21,5 +21,5 @@ class FullScreenDialogFragment : DialogFragment() {
     }
 
     private fun getStyle(): Int = STYLE_NORMAL
-    private fun getThemeResId(): Int = 0
+    private fun getThemeResId(): Int = R.style.Theme_Sample_FullScreenDialog
 }
